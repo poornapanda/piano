@@ -26,7 +26,7 @@ body {
 .piano {
     width: 305px;
     height: 220px;
-    color: #fd4d3f;
+    background-color: #fd4d3f;
     display: block;
     margin: 0 auto;
     margin-top: 30px;
