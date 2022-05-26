@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ffc63f;
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    text-align: center;
+    padding: 0px;
+    letter-spacing: 2px;
+    color: #141c3a;
+    text-transform: uppercase;
+
+}
+#demo {
+    text-align: center;
+    margin-top: 15px;
+    color: #141c3a;
+    letter-spacing: 1px;
+    font-style:italic;
+    font-size: 18px;
+}
+.piano {
+    width: 305px;
+    height: 220px;
+    color: #fd4d3f;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.key {
+    width: 30px;
+    height: 200px;
+    border: 1px solid  #141c3a;
+    background-color: white;
+    box-shadow: 2px 5px;
+    color:  #141c3a;
+    display: inline-block;
+}
+.black-key {
+    width: 30px;
+    height: 100px;
+    position:absolute;
+    display: inline-block;
+    margin-left: -12px;
+    color: white;
+    background-color: #141c3a;
+    padding: 0px;
+}
+.keynote {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 175px;
+    display:block;
+}
+#lyrics {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto; 
+    margin-top: 40px;
+    display: block;
+    background-color: #fd4d3f;
+    padding: 20px;
+}
+#column-one, #column-two, #column-three,#column-four,#column-five,#column-six,#column-optional{
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+#column-optional{
+    display: none;
+}
+#word-one, #word-two, #word-three, #word-four, #word-five, #word-six, #word-optional{
+    width: 90px;
+    height:25px;
+    letter-spacing: 5px;
+    background-color: white;
+    padding-top: 10px;
+    color:#141c3a;
+}
+#letter-note-one, #letter-note-two, #letter-note-three, #letter-note-four, #letter-note-five, #letter-note-six, #letter-note-optional{
+    height: 25px;
+    width:25px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#first-next-line, #second-next-line, #third-next-line, #fourth-next-line{
+  
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: #ffc63f;
+    color:#141c3a;
+    cursor: pointer;
+    position: absolute;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: none;
+
+}
